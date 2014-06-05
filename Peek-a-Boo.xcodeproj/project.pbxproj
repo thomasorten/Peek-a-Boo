@@ -17,7 +17,6 @@
 		45ADAFA51940F33E00D0FA43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45ADAFA31940F33E00D0FA43 /* Main.storyboard */; };
 		45ADAFA81940F33E00D0FA43 /* Peek_a_Boo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45ADAFA61940F33E00D0FA43 /* Peek_a_Boo.xcdatamodeld */; };
 		45ADAFAB1940F33E00D0FA43 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ADAFAA1940F33E00D0FA43 /* MasterViewController.m */; };
-		45ADAFAE1940F33E00D0FA43 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ADAFAD1940F33E00D0FA43 /* DetailViewController.m */; };
 		45ADAFB01940F33E00D0FA43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45ADAFAF1940F33E00D0FA43 /* Images.xcassets */; };
 		45ADAFB71940F33E00D0FA43 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ADAFB61940F33E00D0FA43 /* XCTest.framework */; };
 		45ADAFB81940F33E00D0FA43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ADAF8F1940F33E00D0FA43 /* Foundation.framework */; };
@@ -25,6 +24,9 @@
 		45ADAFBA1940F33E00D0FA43 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ADAF951940F33E00D0FA43 /* CoreData.framework */; };
 		45ADAFC21940F33E00D0FA43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45ADAFC01940F33E00D0FA43 /* InfoPlist.strings */; };
 		45ADAFC41940F33E00D0FA43 /* Peek_a_BooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ADAFC31940F33E00D0FA43 /* Peek_a_BooTests.m */; };
+		45ADAFD21940F56B00D0FA43 /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ADAFD11940F56B00D0FA43 /* ImageCollectionViewCell.m */; };
+		45ADAFD51940F73F00D0FA43 /* AddUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ADAFD41940F73F00D0FA43 /* AddUserViewController.m */; };
+		45ADAFD81940FA9300D0FA43 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ADAFD71940FA9300D0FA43 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,14 +55,18 @@
 		45ADAFA71940F33E00D0FA43 /* Peek_a_Boo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Peek_a_Boo.xcdatamodel; sourceTree = "<group>"; };
 		45ADAFA91940F33E00D0FA43 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		45ADAFAA1940F33E00D0FA43 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		45ADAFAC1940F33E00D0FA43 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		45ADAFAD1940F33E00D0FA43 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		45ADAFAF1940F33E00D0FA43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		45ADAFB51940F33E00D0FA43 /* Peek-a-BooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Peek-a-BooTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45ADAFB61940F33E00D0FA43 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		45ADAFBF1940F33E00D0FA43 /* Peek-a-BooTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Peek-a-BooTests-Info.plist"; sourceTree = "<group>"; };
 		45ADAFC11940F33E00D0FA43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45ADAFC31940F33E00D0FA43 /* Peek_a_BooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Peek_a_BooTests.m; sourceTree = "<group>"; };
+		45ADAFD01940F56B00D0FA43 /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageCollectionViewCell.h; path = ../ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		45ADAFD11940F56B00D0FA43 /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageCollectionViewCell.m; path = ../ImageCollectionViewCell.m; sourceTree = "<group>"; };
+		45ADAFD31940F73F00D0FA43 /* AddUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddUserViewController.h; sourceTree = "<group>"; };
+		45ADAFD41940F73F00D0FA43 /* AddUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddUserViewController.m; sourceTree = "<group>"; };
+		45ADAFD61940FA9300D0FA43 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = ../User.h; sourceTree = "<group>"; };
+		45ADAFD71940FA9300D0FA43 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = ../User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,16 +129,20 @@
 		45ADAF971940F33E00D0FA43 /* Peek-a-Boo */ = {
 			isa = PBXGroup;
 			children = (
+				45ADAFD01940F56B00D0FA43 /* ImageCollectionViewCell.h */,
+				45ADAFD11940F56B00D0FA43 /* ImageCollectionViewCell.m */,
 				45ADAFA01940F33E00D0FA43 /* AppDelegate.h */,
 				45ADAFA11940F33E00D0FA43 /* AppDelegate.m */,
 				45ADAFA31940F33E00D0FA43 /* Main.storyboard */,
 				45ADAFA91940F33E00D0FA43 /* MasterViewController.h */,
 				45ADAFAA1940F33E00D0FA43 /* MasterViewController.m */,
-				45ADAFAC1940F33E00D0FA43 /* DetailViewController.h */,
-				45ADAFAD1940F33E00D0FA43 /* DetailViewController.m */,
 				45ADAFAF1940F33E00D0FA43 /* Images.xcassets */,
 				45ADAFA61940F33E00D0FA43 /* Peek_a_Boo.xcdatamodeld */,
 				45ADAF981940F33E00D0FA43 /* Supporting Files */,
+				45ADAFD31940F73F00D0FA43 /* AddUserViewController.h */,
+				45ADAFD41940F73F00D0FA43 /* AddUserViewController.m */,
+				45ADAFD61940FA9300D0FA43 /* User.h */,
+				45ADAFD71940FA9300D0FA43 /* User.m */,
 			);
 			path = "Peek-a-Boo";
 			sourceTree = "<group>";
@@ -263,11 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45ADAFAE1940F33E00D0FA43 /* DetailViewController.m in Sources */,
 				45ADAFAB1940F33E00D0FA43 /* MasterViewController.m in Sources */,
+				45ADAFD81940FA9300D0FA43 /* User.m in Sources */,
 				45ADAFA21940F33E00D0FA43 /* AppDelegate.m in Sources */,
 				45ADAF9E1940F33E00D0FA43 /* main.m in Sources */,
+				45ADAFD21940F56B00D0FA43 /* ImageCollectionViewCell.m in Sources */,
 				45ADAFA81940F33E00D0FA43 /* Peek_a_Boo.xcdatamodeld in Sources */,
+				45ADAFD51940F73F00D0FA43 /* AddUserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

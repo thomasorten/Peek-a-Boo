@@ -1,5 +1,5 @@
 //
-//  MasterViewController.h
+//  AddUserViewController.h
 //  Peek-a-Boo
 //
 //  Created by Thomas Orten on 6/5/14.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-@interface MasterViewController : UIViewController <NSFetchedResultsControllerDelegate>
+@interface AddUserViewController : UIViewController <NSFetchedResultsControllerDelegate>
 
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
